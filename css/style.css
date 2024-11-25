@@ -585,6 +585,23 @@ form label {
 .js .animate-box {
   opacity: 0;
 }
+.container {
+    display: flex;
+    justify-content: space-between; /* Espace entre le texte et l'image */
+    align-items: center; /* Centrer verticalement */
+    padding: 20px;
+}
+
+.content {
+    flex: 1; /* Le texte prend tout l'espace disponible */
+    margin-right: 20px;
+}
+
+.image-container img {
+    max-width: 100%; /* L'image est redimensionnée pour ne pas déborder */
+    height: auto;
+    max-height: 400px; /* Taille maximale de l'image */
+}
 
 /* Autres règles CSS ici */
 
