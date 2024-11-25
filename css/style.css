@@ -69,6 +69,13 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 20px 0;
 }
 
+
+/* Règle pour changer la couleur des titres et figures */
+body h1, body h2, body h3, body h4, body h5, body h6, body figure {
+  color: #7a5b43 !important;
+}
+
+
 ::-webkit-selection {
   color: #fff;
   background: #8BC34A;
