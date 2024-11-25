@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .countdown-wrap, .bg-cover {
   width: 50%;
   float: left;
-  background: #f9f3ec; /* Fond beige clair */
+  background: #f9f3ec !important; /* Force l'application */
 }
 @media screen and (max-width: 992px) {
   .countdown-wrap, .bg-cover {
