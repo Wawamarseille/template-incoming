@@ -122,10 +122,11 @@ body h1, body h2, body h3, body h4, body h5, body h6, body figure {
 }
 
 .bg-cover {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  position: relative;
+    background-repeat: no-repeat;  /* Empêche l'image de se répéter */
+    background-size: cover;        /* S'assure que l'image couvre toute la zone */
+    background-position: center center;  /* Centre l'image */
+    position: relative;
+    height: 100vh;  /* Définit une hauteur de 100% de la fenêtre */
 }
 @media screen and (max-width: 768px) {
   .bg-cover {
